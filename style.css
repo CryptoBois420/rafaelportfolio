@@ -1,0 +1,348 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  background-color: black;
+  font-family: 'Cabin', sans-serif;
+  padding: 200px 10px;
+  color: #28282B;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+
+a {
+  color: inherit;
+}
+p {
+ text-align: right;
+  margin-bottom: 16px;
+}
+
+.parallax-effect-container {
+  height: 300px;
+  overflow: hidden;
+  display: block;
+  background: black;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.parallax-effect-content {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  top: 50%;
+  left: 0;
+  padding: 16px;
+  width: 100%;
+  transform-style: flat;
+  transform: translate3d(0,-50%,0);
+}
+.parallax-effect-image {
+  padding-top: 500px;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-attachment: fixed;
+  opacity: .7;
+}
+
+.text-center {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center2 {
+  color: ivory;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text-center3 {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.cen {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.discord-button {
+  text-align: center;
+  margin: 0 auto;
+  color: ivory;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+  justify-content: center;
+}
+
+.image {
+  width: 235px;
+  height: 350px;
+  margin: 10px;
+}
+.bottom-container {
+  text-align: center;
+  padding-top: 3000px;
+}
+
+.under-center {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.under-center {
+  color: ivory;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.under-center {
+  color: ivory;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+  display: #C0C0C0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.invert {
+  color: white;
+}
+
+
+
+.fade-in-text3 {
+  font-family: Arial;
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+  color: ivory;
+  
+}
+
+
+.fade-in-text2 {
+  font-family: Arial;
+  font-size: 50px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 30px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1) {
+  color: #e0ffff;
+}
+section:nth-child(2) {
+  color: #42455a;
+  background: #e0ffff;
+}
+section:nth-child(3) {
+  color: #e0ffff;
+}
+section:nth-child(4) {
+  color: #42455a;
+  background: #e0ffff;
+}
+section .container {
+  margin: 100px;
+}
+section h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container {
+  display: flex;
+}
+section .text-container .text-box {
+  margin: 20px;
+  padding: 20px;
+  background: #FFD700;
+}
+section .text-container .text-box h3 {
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  section h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container {
+    flex-direction: column;
+  }
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
